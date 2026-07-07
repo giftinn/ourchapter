@@ -336,7 +336,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '2505';
+const correctPin = '3126';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -451,7 +451,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2025-05-25T00:00:00");
+    const start = new Date("2026-05-31T00:00:00");
 
     setInterval(()=>{
 
@@ -486,7 +486,11 @@ function revealMemory(el){
     `;
 
     const text = `
-        I love you because you actually put effort into loving me. I love you because nobody has ever given me the love that you have given me and you are the only one that could ever love me this way. I love you because you always make me feel like I am worth something. I love you because you have a nurturing nature and you take care of me, especially on days that I need love the most. I love you because you make me smile when I have almost forgotten how to. I love you because you have a huge and honest heart. I love you and every little detail about you. I love you because you are simply you.
+    There are times when i just want to sit next to you, without having to say anything, just to make sure youre really here. Your presence is the most precious thing i’ve ever had. Thank you for giving me space to come in and be someone you can trust. 
+    I love you more than the words i can write here. And, i wont promise that everything will always be easy going forward, cause i know there will come a time when both of us will be selfish. But, i promise to keep trying to be the person who makes you feel safe and and if that day comes, please dont choose to give up on us. 
+    I’ll always be the first to be proud of your every achievement, and the first to stand beside you when the world is unfriendly. 
+    
+    I really mean it when i say youre the best thing thats ever happened to me. I love you, Mahika. I always do.   
     `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
@@ -502,7 +506,7 @@ function revealMemory(el){
     function typeParagraph(){
 
         if(p>=paragraphs.length){
-            sign.innerHTML="Sincerely<br> Me";
+            sign.innerHTML="Sincerely<br> Faiz";
             return;
         }
 
